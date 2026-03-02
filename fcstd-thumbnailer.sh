@@ -37,7 +37,7 @@ echo '
 Очистка кэша'
 rm -rf ~/.cache/thumbnails/*
 nautilus -q
-nautilus &
+#nautilus &
 
 echo '
 Готово.'
