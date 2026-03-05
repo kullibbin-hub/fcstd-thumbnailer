@@ -1,5 +1,10 @@
 # fcstd-thumbnailer
 Скрипт реализует создание превью для файлов FreeCAD формата .FCstd для Nautilus. Проверен в Altlinux Workstation 11.1, возможно будет работать в Ubuntu.
+Для Altlinux потребуется включить sudo. В терминале
+
+su -
+пароль
+control sudowheel enabled
 
 Скрипт создает два файла /usr/local/bin/fcstd-thumbnailer и /usr/share/thumbnailers/fcstd.thumbnailer. Смысл - распаковать файл проекта 
 .FCstd, вытащить из него превью в формате .png и передать в nautilus для отображения.
