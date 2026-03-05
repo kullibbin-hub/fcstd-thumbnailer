@@ -3,7 +3,9 @@
 Для Altlinux потребуется включить sudo. В терминале
 
 su -
+
 пароль
+
 control sudowheel enabled
 
 Скрипт создает два файла /usr/local/bin/fcstd-thumbnailer и /usr/share/thumbnailers/fcstd.thumbnailer. Смысл - распаковать файл проекта 
